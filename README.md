@@ -13,7 +13,9 @@ CSharpConcepts/
 ├── Concepts/
 │   ├── BasicTypes/         # Examples of basic data types and operations
 │   ├── OOP/                # Object-Oriented Programming concepts
-│   └── LINQ/               # LINQ query examples
+│   ├── LINQ/               # LINQ query examples
+│   ├── Advanced/           # Advanced C# features and patterns
+│   └── DeepDives/          # In-depth exploration of specific topics
 ├── Program.cs              # Main entry point - run concepts from here
 └── CSharpConcepts.csproj   # Project configuration
 ```
@@ -69,20 +71,49 @@ YourConcept.Run();
 
 ## Example Concepts Included
 
-### Basic Types - String Operations
+### Basic Concepts
+
+#### Basic Types - String Operations
 - String concatenation
 - String interpolation
 - String methods (ToUpper, ToLower, Length)
 
-### Object-Oriented Programming - Person Class
+#### Object-Oriented Programming - Person Class
 - Class definition with properties
 - Constructors
 - Methods
 
-### LINQ Examples
+#### LINQ Examples
 - Filtering with Where
 - Projection with Select
 - Aggregation with Sum
+
+### Advanced Concepts
+
+#### Async/Await
+- Asynchronous programming patterns
+- Task-based async operations
+- Task.WhenAll for parallel execution
+
+#### Delegates and Events
+- Delegate types and usage
+- Multicast delegates
+- Func and Action delegates
+
+### Deep Dives
+
+#### Collections
+- List<T> - Dynamic arrays
+- Dictionary<TKey, TValue> - Key-value pairs
+- HashSet<T> - Unique element sets
+- Queue<T> - FIFO data structure
+- Stack<T> - LIFO data structure
+
+#### Exception Handling
+- Try-catch-finally blocks
+- Multiple catch blocks
+- Custom exceptions
+- Exception propagation
 
 ## Tips
 - Comment out concepts in `Program.cs` that you don't want to run
